@@ -6,7 +6,7 @@ time_estimates = {
     var crack_times_display, crack_times_seconds, scenario, seconds;
     crack_times_seconds = {
       online_throttling_100_per_hour: guesses / (100 / 3600),
-      online_no_throttling_10_per_second: guesses / 1e2,
+      online_no_throttling_10_per_second: guesses / 10,
       offline_slow_hashing_1e4_per_second: guesses / 1e4,
       offline_fast_hashing_1e10_per_second: guesses / 1e10
     };
