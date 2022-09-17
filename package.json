@@ -22,7 +22,7 @@
     "dom7": "^4.0.4",
     "html5shiv": "^3.7.3",
     "intl-tel-input": "^17.0.15",
-    "jquery": "^3.6.0",
+    "jquery": "^3.6.1",
     "jquery-mask-plugin": "^1.14.16",
     "ssr-window": "^4.0.2",
     "swiper": "^8.0.7",
