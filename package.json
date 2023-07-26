@@ -25,7 +25,6 @@
     "jquery": "^3.6.0",
     "jquery-mask-plugin": "^1.14.16",
     "ssr-window": "^4.0.2",
-    "swiper": "^8.0.7",
-    "zxcvbn": "^4.4.2"
+    "swiper": "^8.0.7"
   }
 }
