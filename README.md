@@ -1,9 +1,15 @@
 # FO
 
 Meterian Scan Result<br>
-[![security status](https://www.meterian.com/badge/gh/roggiedc/FO/security)](https://www.meterian.com/report/gh/roggiedc/FO)
-[![stability status](https://www.meterian.com/badge/gh/roggiedc/FO/stability)](https://www.meterian.com/report/gh/roggiedc/FO)
-[![licensing status](https://www.meterian.com/badge/gh/roggiedc/FO/licensing)](https://www.meterian.com/report/gh/roggiedc/FO)
+[![security status](https:&#x2F;&#x2F;meterian.com/badge/gh/roggiedc/FO/security?branch=master)](https:&#x2F;&#x2F;meterian.com/report/gh/roggiedc/FO)
+[![stability status](https:&#x2F;&#x2F;meterian.com/badge/gh/roggiedc/FO/stability?branch=master)](https:&#x2F;&#x2F;meterian.com/report/gh/roggiedc/FO)
+[![licensing status](https:&#x2F;&#x2F;meterian.com/badge/gh/roggiedc/FO/licensing?branch=master)](https:&#x2F;&#x2F;meterian.com/report/gh/roggiedc/FO)
+
+<a href="https://meterian.io" target="_blank" >
+   <img src="https://meterian.io/images/brand/badge-light.svg"
+        style="width:200px"
+   />
+</a>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
