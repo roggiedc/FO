@@ -43,7 +43,7 @@
     "micro": "^10.0.1",
     "motion": "^12.1.0",
     "nanoid": "^5.0.9",
-    "next": "^14.2.32",
+    "next": "^14.2.35",
     "next-i18n-router": "^5.5.1",
     "nodemailer": "^6.9.14",
     "persona": "^5.1.0",
