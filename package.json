@@ -74,7 +74,7 @@
     "autoprefixer": "^10.4.19",
     "daisyui": "^4.10.2",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3",
+    "eslint-config-next": "^16.0.10",
     "i18nexus-cli": "^3.5.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
