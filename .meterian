@@ -94,7 +94,158 @@
         }
       ],
       "cves": [],
-      "libraries": []
+      "libraries": [
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "delayed-stream"
+          },
+          "version": "1.0.0",
+          "description": "delayed-stream: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via axios -> form-data -> combined-stream; the latest axios and form-data still require it. Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "find-root"
+          },
+          "version": "1.1.0",
+          "description": "find-root: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via @emotion/react -> @emotion/babel-plugin (Emotion is MUI's styling engine); no Emotion release without it. Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "loose-envify"
+          },
+          "version": "1.4.0",
+          "description": "loose-envify: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via prop-types / react-transition-group (MUI, react-google-recaptcha, react-phone-number-input, react-plaid-link) and invariant. Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "redis-errors"
+          },
+          "version": "1.2.0",
+          "description": "redis-errors: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via ioredis (pinned by the latest ioredis release). Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "unpipe"
+          },
+          "version": "1.0.0",
+          "description": "unpipe: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via micro -> raw-body; micro pins this raw-body version. Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "combined-stream"
+          },
+          "version": "1.0.8",
+          "description": "combined-stream: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via axios -> form-data; the latest form-data still requires it. Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "fast-deep-equal"
+          },
+          "version": "3.1.3",
+          "description": "fast-deep-equal: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via @react-google-maps/api -> @googlemaps/markerclusterer (pinned). Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "get-nonce"
+          },
+          "version": "1.0.1",
+          "description": "get-nonce: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via Radix UI -> react-remove-scroll -> react-style-singleton. Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "hoist-non-react-statics"
+          },
+          "version": "3.3.2",
+          "description": "hoist-non-react-statics: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via @emotion/react, react-google-recaptcha and react-google-recaptcha-v3. Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "platform"
+          },
+          "version": "1.3.6",
+          "description": "platform: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; direct dependency used by the app; no newer release exists. Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "safer-buffer"
+          },
+          "version": "2.1.2",
+          "description": "safer-buffer: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via micro -> raw-body -> iconv-lite; the latest iconv-lite still requires it. Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "detect-node-es"
+          },
+          "version": "1.1.0",
+          "description": "detect-node-es: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via Radix UI -> react-remove-scroll -> use-sidecar. Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "invariant"
+          },
+          "version": "2.2.4",
+          "description": "invariant: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via @react-google-maps/api (pinned). Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "is-potential-custom-element-name"
+          },
+          "version": "1.0.1",
+          "description": "is-potential-custom-element-name: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via isomorphic-dompurify -> jsdom. Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        },
+        {
+          "library": {
+            "language": "nodejs",
+            "name": "path-parse"
+          },
+          "version": "1.0.7",
+          "description": "path-parse: Meterian maintenance-age advisory (CWE-1104), no CVE. Already the latest published release; transitive via @emotion/babel-plugin -> babel-plugin-macros -> resolve. Accepted pending review.",
+          "reason": "unapplicable",
+          "expiry": "2027-05-09"
+        }
+      ]
     }
   }
 }

@@ -1,0 +1,28 @@
+# Scans this repo with Meterian in open-source mode. The result updates the
+# public report behind the README badges (meterian.com/report/gh/roggiedc/FO),
+# and the client applies the exclusions in .meterian. No token is needed, so
+# the free-plan project limit does not apply.
+name: Meterian scan
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: "0 3 * * *" # daily, so newly published advisories reach the report
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  meterian:
+    name: Meterian scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Meterian Scanner
+        uses: MeterianHQ/meterian-github-action@9603528ad7eb3e76e7181d8d721bba25665a403d # v1.0.18
+        with:
+          oss: true
